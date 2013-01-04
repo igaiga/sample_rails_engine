@@ -1,4 +1,7 @@
 SampleEngine::Application.routes.draw do
+
+  mount Foo::Engine, at:'foo'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
